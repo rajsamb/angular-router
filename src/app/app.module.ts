@@ -8,11 +8,13 @@ import { HeroesModule }     from './heroes/heroes.module';
 
 import { CrisisListComponent }   from './crisis-list/crisis-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule,
+        BrowserAnimationsModule,
         HeroesModule,
         AppRoutingModule
     ],
